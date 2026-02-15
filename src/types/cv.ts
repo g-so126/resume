@@ -18,6 +18,8 @@ export interface CVHeader {
 export interface ExperienceItem {
   role: string
   company: string
+  /** Optional: link company name to URL */
+  companyUrl?: string
   location: string
   period: string
   bullets: string[]
@@ -26,6 +28,8 @@ export interface ExperienceItem {
 export interface EducationItem {
   degree: string
   institution: string
+  /** Optional: link institution name to URL */
+  institutionUrl?: string
   location: string
   period: string
   bullets?: string[]
@@ -33,8 +37,9 @@ export interface EducationItem {
 
 export interface SkillsCategory {
   title: string
-  items: string
-  /** Optional: for list-style display */
+  /** Pipe-separated or use itemsList for bubbles */
+  items?: string
+  /** For bubble/tag display; when set, used instead of items */
   itemsList?: string[]
 }
 
