@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Cold purple/violet theme – CSS variables for easy extension */
+:root {
+  --cv-bg: #f8fafc;
+  --cv-surface: #ffffff;
+  --cv-border: #e2e8f0;
+  --cv-text: #1e293b;
+  --cv-text-muted: #64748b;
+  --cv-accent: #5b21b6;
+  --cv-accent-light: #ede9fe;
+  --cv-accent-muted: #7c3aed;
+  --page-bg: #94a3b8;
+}
+
+body {
+  @apply antialiased text-[var(--cv-text)];
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+}
