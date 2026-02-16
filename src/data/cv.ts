@@ -9,14 +9,14 @@ export const cvData: CVData = {
     contact: [
       { label: 'Phone', href: 'tel:+971547315168', displayText: '+971 547315168' },
       { label: 'Email', href: 'mailto:ginevra.cerri9@hotmail.com', displayText: 'ginevra.cerri9@hotmail.com' },
-      { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ginevra-cerri/', displayText: 'Ginevra Cerri' },
+      { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ginevra-cerri-a2589816b/', displayText: 'Ginevra Cerri' },
     ],
   },
   experience: [
     {
       role: 'Perception Lead – Engineer',
       company: 'Technology Innovation Institute',
-      companyUrl: 'https://www.tii.ae',
+      companyUrl: 'https://www.youtube.com/watch?v=3RdxL7POjI4&t=306s',
       location: 'Abu Dhabi, United Arab Emirates',
       period: 'Oct 2023 – Present',
       bullets: [
@@ -29,7 +29,7 @@ export const cvData: CVData = {
     {
       role: 'CPO – Founder',
       company: 'Unchained Labs',
-      companyUrl: 'https://unchainedlabs.com',
+      companyUrl: 'https://www.unchainlabs.xyz/',
       location: 'Fully Remote',
       period: 'Dec 2024 – Present',
       bullets: [
@@ -41,7 +41,7 @@ export const cvData: CVData = {
     {
       role: 'Research Assistant',
       company: 'Polytechnic of Milan – mOve Research Team',
-      companyUrl: 'https://www.polimi.it',
+      companyUrl: 'https://aida.polimi.it/',
       location: 'Milan, Italy',
       period: 'Sept 2022 – Jul 2023',
       bullets: [
@@ -91,6 +91,7 @@ export const cvData: CVData = {
     {
       role: 'Member',
       company: 'Nova Talent',
+      companyUrl: 'https://www.novatalent.com/',
       location: '',
       period: 'Aug 2024 – Present',
       bullets: [
@@ -100,7 +101,6 @@ export const cvData: CVData = {
     {
       role: 'Student Representative – Industrial Engineering',
       company: 'Sapienza University',
-      companyUrl: 'https://www.uniroma1.it',
       location: 'Rome, Italy',
       period: 'Jan 2017 – May 2020',
       bullets: [
