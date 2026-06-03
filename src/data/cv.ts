@@ -5,7 +5,7 @@ import type { CVData } from '../types/cv'
  */
 export const cvData: CVData = {
   header: {
-    name: 'Go Sujin',
+    name: 'Gwak SoJeong',
     contact: [
       { label: 'Email', href: 'mailto:ggsj0106@gmail.com', displayText: 'ggsj0106@gmail.com' },
       { label: 'GitHub', href: 'https://github.com/g-so126', displayText: 'github.com/g-so126' },
